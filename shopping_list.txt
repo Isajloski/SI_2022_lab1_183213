@@ -1,5 +1,11 @@
 Eggs x 5
 Milk x 22
 Bread x 9
+<<<<<<< HEAD
 Apple x 4
 Watermelon x 33
+=======
+Apple x 19
+Watermelon x 1
+Orange
+>>>>>>> branch2

@@ -1,0 +1,215 @@
+5.
+
+Eggs 
+Milk 
+Bread 
+Apple 
+Watermelon
+
+git add shopping_list.txt
+git commit -m ""Add quantities to the items."
+
+
+
+6. 
+
+Eggs x 5
+Milk x 3
+Bread x 9
+Apple x 4
+Watermelon x 1
+
+git add shopping_list.txt
+git commit -m "Add quantities to the items."
+
+
+[master 8f70abc] Add quantities to the items.
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+
+7. 
+
+git branch branch1
+git branch branch2 
+
+
+8. 
+git log
+
+Author: Isajloski <46249186+Isajloski@users.noreply.github.com>
+Date:   Sun Apr 10 16:23:01 2022 +0200
+
+    Add quantities to the items.
+
+commit f4479c710c4217ad1cbc49728a310cdf6bf224b7
+Author: Isajloski <46249186+Isajloski@users.noreply.github.com>
+Date:   Sun Apr 10 16:22:20 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 8ec016edb2ea16a3d51ded0adc0a530db6f996bd (origin/master, origin/HEAD)
+Author: Горан Исајлоски <46249186+Isajloski@users.noreply.github.com>
+Date:   Sun Apr 10 16:07:33 2022 +0200
+
+    Initial commit
+
+
+9. 
+
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 682 bytes | 136.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Isajloski/SI_2022_lab1_183213
+   8ec016e..8f70abc  master -> master
+
+
+10/11/12 
+
+git checkout branch1
+Switched to branch 'branch1'
+
+git add shopping_list.txt
+git commit -m "Change quantity of item #5"
+
+[branch1 e6556e7] Change quantity of item #5
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+git checkout master
+
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+
+13. 
+git commit -m "Change quantity of item #2"
+[master 7b51d27] Change quantity of item #2
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+
+14.
+
+git push --all
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 363 bytes | 363.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Isajloski/SI_2022_lab1_183213
+ * [new branch]      branch1 -> branch1
+ * [new branch]      branch2 -> branch2
+
+
+15. 
+
+git checkout branch2
+Switched to branch 'branch2'
+
+
+16.
+
+git commit -m "Modify item #4"
+[branch2 e0bd129] Modify item #4
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+17.
+
+commit e0bd1292a044218e42df65f1ec98e80f67aacb4c (HEAD -> branch2)
+Author: Isajloski <46249186+Isajloski@users.noreply.github.com>
+Date:   Sun Apr 10 17:36:57 2022 +0200
+
+    Modify item #4
+
+commit 8f70abcefa31498af8e160cb7f25b57f868d17ec (origin/master, origin/branch2, origin/HEAD, master)
+Author: Isajloski <46249186+Isajloski@users.noreply.github.com>
+Date:   Sun Apr 10 16:23:01 2022 +0200
+
+    Add quantities to the items.
+
+commit f4479c710c4217ad1cbc49728a310cdf6bf224b7
+Author: Isajloski <46249186+Isajloski@users.noreply.github.com>
+Date:   Sun Apr 10 16:22:20 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 8ec016edb2ea16a3d51ded0adc0a530db6f996bd
+Author: Горан Исајлоски <46249186+Isajloski@users.noreply.github.com>
+Date:   Sun Apr 10 16:07:33 2022 +0200
+
+    Initial commit
+
+18.
+
+git add shopping_list.txt
+git commit --amend -m "Modify item #4 and add item #6"
+[branch2 d8b0704] Modify item #4 and add item #6
+ Date: Sun Apr 10 17:36:57 2022 +0200
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+19. 
+
+git log
+commit d8b0704b61118d92e793cf37df09c58991a5c2f1 (HEAD -> branch2)
+Author: Isajloski <46249186+Isajloski@users.noreply.github.com>
+Date:   Sun Apr 10 17:36:57 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit 8f70abcefa31498af8e160cb7f25b57f868d17ec (origin/master, origin/branch2, origin/HEAD, master)
+Author: Isajloski <46249186+Isajloski@users.noreply.github.com>
+Date:   Sun Apr 10 16:23:01 2022 +0200
+
+    Add quantities to the items.
+
+commit f4479c710c4217ad1cbc49728a310cdf6bf224b7
+Author: Isajloski <46249186+Isajloski@users.noreply.github.com>
+Date:   Sun Apr 10 16:22:20 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 8ec016edb2ea16a3d51ded0adc0a530db6f996bd
+Author: Горан Исајлоски <46249186+Isajloski@users.noreply.github.com>
+Date:   Sun Apr 10 16:07:33 2022 +0200
+
+20.  
+
+git merge branch1
+Updating 8f70abc..e6556e7
+Fast-forward
+ shopping_list.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+21. 
+
+git checkout master 
+
+Git merge branch2
+
+Тука имаме ерор па за да го решиме ќе направием нов комит со 22 заедно. 
+
+22. 
+
+git add . 
+git commit -m Add "Add docs"
+Luka@Luka161120 MINGW64 ~/Documents/University/University/2. Летен/Софтверско Инжинерство/Домашна/Домашна 1/SI_2022_lab1_183213 (master|MERGING)
+$ git commit -m "Add docs"
+[master facbabd] Add docs
+
+Со ова го решивме и 21 и 22.
+
+23.
+
+git push --all 
+
+
+
+
+
+
+
+
