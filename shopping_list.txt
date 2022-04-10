@@ -1,0 +1,5 @@
+Eggs 
+Milk 
+Bread 
+Apple 
+Watermelon
