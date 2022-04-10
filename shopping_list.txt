@@ -1,5 +1,6 @@
 Eggs x 5
 Milk x 3
 Bread x 9
-Apple x 4
+Apple x 19
 Watermelon x 1
+Orange
