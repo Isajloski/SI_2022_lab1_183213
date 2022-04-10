@@ -1,5 +1,5 @@
-Eggs 
-Milk 
-Bread 
-Apple 
-Watermelon
+Eggs x 5
+Milk x 3
+Bread x 9
+Apple x 4
+Watermelon x 1
