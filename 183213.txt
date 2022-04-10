@@ -206,6 +206,8 @@ $ git commit -m "Add docs"
 
 git push --all 
 
+Да ги направиме измените
+
 
 
 
